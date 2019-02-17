@@ -1,68 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BrightChoice
+## Easy-to-use, simple interface to compare your financial situations for multiple colleges.
 
-## Available Scripts
+## Inspiration
+We were inspired to make this app because of the pain we experienced comparing financial aid packages from each university we were admitted to by hand. We wanted to create a simple interface that allowed potential students to easily seeing a comparison of their financial situations for each university.
 
-In the project directory, you can run:
+## What it does
+Originally, we worked on a functionality to allow a user to submit PDFs that were either acceptance letters with financial aid on them or itemized financial aid offer letters and we would extract the financial aid figures (grants, loans, and scholarships) plus the college name from these letters. After doing this, we would search through our database we created detailing the costs for tuition and room & board for each university that the student was considering. Our database contains these figures for each college in Illinois. Finally, the total out of pocket expense for each university would be relayed to the user along with itemized expenses (including room & board and tuition) and funding (including grants, loans, and scholarships) sections.
 
-### `npm start`
+## How I built it
+We built the backend with Python. The front-end is built with React.js & React-Bootstrap.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Challenges I ran into
+We ran into issues putting all of the parts together. We couldn't get our SQL server running which ended up being a big problem obviously. We couldn't connect our front-end and our back-end functionality or databases, so what we are demoing does not really show what each member worked on.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Accomplishments that I'm proud of
+I'm still demoing anyway :-)
 
-### `npm test`
+## What I learned
+More about React, what I need to learn in React, SQL servers aren't as easy as you'd think
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What's next for BrightChoice
+Connect all the pieces for a functional app hah. Also more visualizations for comparison (bar charts displaying out of pocket cost for each university) and ability to see how much the expected return on your investment of going to a certain college is based on the average out-of-college salary for a graduate from each college in your specific major. Finally, a "how long would it take me to pay off my loans" feature based on these expected returns.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
