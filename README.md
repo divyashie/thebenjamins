@@ -1,5 +1,5 @@
 # BrightChoice
-## Easy-to-use, simple interface to compare your financial situations for multiple colleges.
+Easy-to-use, simple interface to compare your financial situations for multiple colleges.
 
 ## Inspiration
 We were inspired to make this app because of the pain we experienced comparing financial aid packages from each university we were admitted to by hand. We wanted to create a simple interface that allowed potential students to easily seeing a comparison of their financial situations for each university.
