@@ -1,0 +1,41 @@
+.analysis-box {
+    text-align: left;
+    font-size: 24px;
+    max-width: 700px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(255, 250, 250, .8);
+}
+
+.header {
+    background-color: #6688CC;
+    color: white;
+    padding-left: 10px;
+    font-family: 'Cinzel',
+    serif;
+    font-size: 26px;
+}
+
+.item {
+    padding-left: 15px;
+    font-family: 'Lato',
+    sans-serif;
+
+}
+
+.uni-name {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+
+.total {
+    text-align: center;
+    font-family: 'Lato',
+    sans-serif;
+
+}
